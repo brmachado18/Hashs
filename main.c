@@ -161,7 +161,7 @@ void lerArquivo(TFechada* fechada, TAberto* aberta){
 	char *result;
 	char *subString;
 	
-	file = fopen("forcado700000.txt", "rt");
+	file = fopen("aleatorio300000.txt", "rt");
 	
 	if(file == NULL){
 		printf("\n\n --== ARQUIVO NAO LOCALIZADO ==--  \n\n");
